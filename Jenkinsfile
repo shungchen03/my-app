@@ -6,7 +6,7 @@ pipeline {
         stage('clean') { 
             steps {
                 // bat "git clone https://github.com/shungchen03/my-app.git" 
-                // bat "C:\\apache-maven-3.6.0\\bin\\mvn clean -f my-app"
+                bat "C:\\apache-maven-3.6.0\\bin\\mvn clean"
                 bat "echo AA"
             }
         }
